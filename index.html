@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculator(JS Day7 Task)</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container border">
+    <form name="cal">
+      <center>
+        <h1>Calculator</h1>
+      </center>
+      <div class="content">
+        <input type="text" size="22" name="input" value="" />
+        <br />
+        <center>
+          <table>
+            <tr>
+              <td>
+                <input type="button" class="shred" value=" C " onclick="reset()" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" √ " onclick="sqrt()" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" x² " onclick="sqr()" />
+              </td>
+              <td>
+                <input type="button" class="shred" value=" = " onclick="result()" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" class="sh" value=" 7 " onclick="cal.input.value+='7'" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" 8 " onclick="cal.input.value+='8'" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" 9 " onclick="cal.input.value+='9'" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" ÷ " onclick="cal.input.value+='/'" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" class="sh" value=" 4 " onclick="cal.input.value+='4'" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" 5 " onclick="cal.input.value+='5'" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" 6 " onclick="cal.input.value+='6'" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" X " onclick="cal.input.value+='*'" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" class="sh" value=" 1 " onclick="cal.input.value+='1'" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" 2 " onclick="cal.input.value+='2'" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" 3 " onclick="cal.input.value+='3'" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" - " onclick="cal.input.value+='-'" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" class="sh" value=" ◄ " onclick="delChar(this)" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" 0 " onclick="cal.input.value+='0'" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" . " onclick="cal.input.value+='.'" />
+              </td>
+              <td>
+                <input type="button" class="sh" value=" + " onclick="cal.input.value+='+'" />
+              </td>
+            </tr>
+          </table>
+          
+<!--           <center>
+            <input type="button" class="shred" style="width: 120px;" value=" = " onclick="result()" />
+          </center>
+           -->
+        </center>
+    </form>
+  </div>
+  <br />
+  <script src="script.js"></script>
+  </div>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .border {
+    width: 480px;
+    padding: 8px;
+    border-radius: 43px;
+    border: 2px gray solid;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .content {
+    width: 350px;
+    background: inherit;
+    margin: auto;
+  }
+  
+  input[type=text] {
+    display: block;
+    clear: both;
+    font-size: 1.2em;
+    color: black;
+    background: rgb(104, 104, 46);
+    border: 8px solid #dadada;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    margin: auto;
+    font-weight: bold;
+    height: 50px;
+    padding-left: 5px;
+    border: 2px black;
+    padding-right: 2px;
+  }
+  
+  input[type=text]:hover {
+    background: blue;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .sh {
+    background: black;
+    width: 60px;
+    border: 1px solid #dcdcdc;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 50px;
+    align: center;
+    margin: auto;
+    padding-bottom: 5px;
+  }
+  
+  .sh:hover {
+    background: indigo;
+    color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .shred {
+    padding-bottom: 5px;
+    background: black;
+    width: 60px;
+    border: 1px solid #dcdcdc;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    color: coral;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 50px;
+    align: center;
+    margin: auto;
+  }
+  
+  .shred:hover {
+    background: blue;
+    color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .link {
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: 250px;  
+    display: block;
+    margin: 0 0.2em;
+    padding: 3px;
+    background: #97CAF2;
+    border-radius: 2px;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .link:hover   { background: #53A7EA; }
+  .link:active  { background: #C4E1F8; }
+  .link:visited { background: #F2BF97; }
+                          
+  
+  
